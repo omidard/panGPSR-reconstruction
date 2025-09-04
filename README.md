@@ -138,46 +138,46 @@ large scale reconstruction of pan gene-to-protein-to-structure-to-reaction for p
 
 
 
-# Implementation
+# Implementation.
 
 
-## Run the full pipeline
+## Run the full pipeline.
 
 This repository provides a sequential pipeline for ESKAPE taxa. The runner below executes your scripts **in order** and handles env activation for Bakta. It assumes the directory layout:
 
 
-### Prerequisites
-###Python packages
-pandas
-numpy
-scipy (for optimize, clustering)
-matplotlib
-seaborn
-biopython (Entrez, SeqIO, AlignIO)
-tqdm
-requests
-certifi
-cobra (COBRApy)
-scikit-learn
+### Prerequisites.
+###Python packages.
+pandas.
+numpy.
+scipy (for optimize, clustering).
+matplotlib.
+seaborn.
+biopython (Entrez, SeqIO, AlignIO).
+tqdm.
+requests.
+certifi.
+cobra (COBRApy).
+scikit-learn.
 
-####External tools (CLI)
-CD-HIT (pangenome clustering)
-Mash (distance / clustering)
-CarveMe (draft GEMs) — also needs a MILP solver; we install swiglpk via conda
-MAFFT (for the MSA step; adjust if you use MUSCLE/Clustal instead)
-USalign and TMalign (structural alignment) — install manually and point the runner to the binaries
-Bakta (annotation) — in its own conda env per your workflow
+####External tools (CLI).
+CD-HIT (pangenome clustering).
+Mash (distance / clustering).
+CarveMe (draft GEMs) — also needs a MILP solver; we install swiglpk via conda.
+MAFFT (for the MSA step; adjust if you use MUSCLE/Clustal instead).
+USalign and TMalign (structural alignment) — install manually and point the runner to the binaries.
+Bakta (annotation) — in its own conda env per your workflow.
 
 - A SWISS-MODEL **access token** available as an environment variable:
 
 
 
-####Quick start (single taxon)
+####Quick start (single taxon).
 bash scripts/panGPSR_pipeline \
   --root /path/to/dir/ESKAPE \
   --taxon Enterococcus_faecium
 
-####Run all ESKAPE taxa
+####Run all ESKAPE taxa.
 bash scripts/panGPSR_pipeline --root /path/to/dir/ESKAPE --all
 
 
