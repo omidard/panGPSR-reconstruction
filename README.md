@@ -147,7 +147,7 @@ This repository provides a sequential pipeline for ESKAPE taxa. The runner below
 
 
 ### Prerequisites.
-###Python packages.
+### Python packages.
 -pandas.
 -numpy.
 -scipy (for optimize, clustering).
@@ -160,7 +160,7 @@ This repository provides a sequential pipeline for ESKAPE taxa. The runner below
 -cobra (COBRApy).
 -scikit-learn.
 
-####External tools (CLI).
+#### External tools (CLI).
 -CD-HIT (pangenome clustering).
 -Mash (distance / clustering).
 -CarveMe (draft GEMs) — also needs a MILP solver; we install swiglpk via conda.
@@ -172,12 +172,12 @@ This repository provides a sequential pipeline for ESKAPE taxa. The runner below
 
 
 
-####Quick start (single taxon).
+#### Quick start (single taxon).
 bash scripts/panGPSR_pipeline \
   --root /path/to/dir/ESKAPE \
   --taxon Enterococcus_faecium
 
-####Run all ESKAPE taxa.
+#### Run all ESKAPE taxa.
 bash scripts/panGPSR_pipeline --root /path/to/dir/ESKAPE --all
 
 
