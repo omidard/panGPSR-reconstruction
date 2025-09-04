@@ -147,11 +147,29 @@ This repository provides a sequential pipeline for ESKAPE taxa. The runner below
 
 
 ### Prerequisites
-- **conda** (for `bakta_env`)
-- Python deps used by your scripts (CarveMe, etc.)
+###Python packages
+pandas
+numpy
+scipy (for optimize, clustering)
+matplotlib
+seaborn
+biopython (Entrez, SeqIO, AlignIO)
+tqdm
+requests
+certifi
+cobra (COBRApy)
+scikit-learn
+
+####External tools (CLI)
+CD-HIT (pangenome clustering)
+Mash (distance / clustering)
+CarveMe (draft GEMs) — also needs a MILP solver; we install swiglpk via conda
+MAFFT (for the MSA step; adjust if you use MUSCLE/Clustal instead)
+USalign and TMalign (structural alignment) — install manually and point the runner to the binaries
+Bakta (annotation) — in its own conda env per your workflow
+
 - A SWISS-MODEL **access token** available as an environment variable:
-  ```bash
-  export SWISSMODEL_TOKEN="YOUR_TOKEN_HERE"   # do NOT commit tokens
+
 
 
 ####Quick start (single taxon)
