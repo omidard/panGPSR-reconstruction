@@ -5,7 +5,7 @@ large scale reconstruction of pan gene-to-protein-to-structure-to-reaction for p
 ## Method Overview (Figure)
 
 <p align="center">
-  <img src="/documents/Lacto-panGPSRs.jpg" width="900" alt="Automated pipeline: genomes → QA/QC → annotation (BAKTA) → pangenome (CD-HIT) → GEM reconstruction (CarveMe) → panGPRs → neighborhood analysis; with protein stoichiometry, 3D modeling, and structural analysis integration.">
+  <img src="/documents/Lacto-panGPSRs.jpg" width="450" alt="Automated pipeline: genomes → QA/QC → annotation (BAKTA) → pangenome (CD-HIT) → GEM reconstruction (CarveMe) → panGPRs → neighborhood analysis; with protein stoichiometry, 3D modeling, and structural analysis integration.">
 </p>
 
 *Figure 1.* High-level workflow for automated pangenome and metabolic modeling.
@@ -24,7 +24,7 @@ large scale reconstruction of pan gene-to-protein-to-structure-to-reaction for p
    Assess contamination and taxonomic assignment; cluster genomes (Mash) and evaluate completeness and contiguity; exclude or flag low-quality genomes.
 
 <p align="center">
-  <img src="/documents/Lacto-panGPSRs (1).png" width="900" alt="Automated pipeline: genomes → QA/QC → annotation (BAKTA) → pangenome (CD-HIT) → GEM reconstruction (CarveMe) → panGPRs → neighborhood analysis; with protein stoichiometry, 3D modeling, and structural analysis integration.">
+  <img src="/documents/Lacto-panGPSRs (1).png" width="450" alt="Automated pipeline: genomes → QA/QC → annotation (BAKTA) → pangenome (CD-HIT) → GEM reconstruction (CarveMe) → panGPRs → neighborhood analysis; with protein stoichiometry, 3D modeling, and structural analysis integration.">
 </p>
 
 *Figure 2.* A) Genomes distribution across genera, B) species and C) geographical locations.   
@@ -36,6 +36,8 @@ large scale reconstruction of pan gene-to-protein-to-structure-to-reaction for p
    Cluster proteins to form non-redundant ortholog groups; build a pangenome graph that captures core, accessory, and rare gene families.
 
    ## Pangenome Analysis (Figures)
+
+## Pangenome Analysis (Panel)
 
 <table>
   <tr>
@@ -50,12 +52,12 @@ large scale reconstruction of pan gene-to-protein-to-structure-to-reaction for p
   </tr>
 </table>
 
-
-
-
- <p align="center">
-  <img src="/documents/Lacto-panGPSRs (4).png" width="900" alt="Automated pipeline: genomes → QA/QC → annotation (BAKTA) → pangenome (CD-HIT) → GEM reconstruction (CarveMe) → panGPRs → neighborhood analysis; with protein stoichiometry, 3D modeling, and structural analysis integration.">
+<p align="center">
+  <img src="/documents/Lacto-panGPSRs (4).png" width="90%" alt="Combined pangenome analysis panel">
+  <br>
+  <em>Figure 5. Extended pangenome analysis.</em>
 </p>
+
 
 *Figure 4.* Pangenome analysis, H) Comulative pangenome - defining stabel core, accessory and rare (CAR) genes across the family
 
