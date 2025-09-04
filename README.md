@@ -42,6 +42,7 @@ large scale reconstruction of pan gene-to-protein-to-structure-to-reaction for p
 *Figure.* Pangenome analysis, D) family-level . E) species level
 
 
+
    <p align="center">
   <img src="/documents/Lacto-panGPSRs (3).png" width="900" alt="Automated pipeline: genomes → QA/QC → annotation (BAKTA) → pangenome (CD-HIT) → GEM reconstruction (CarveMe) → panGPRs → neighborhood analysis; with protein stoichiometry, 3D modeling, and structural analysis integration.">
 </p>
@@ -51,11 +52,13 @@ large scale reconstruction of pan gene-to-protein-to-structure-to-reaction for p
 
 
 
+
  <p align="center">
   <img src="/documents/Lacto-panGPSRs (4).png" width="900" alt="Automated pipeline: genomes → QA/QC → annotation (BAKTA) → pangenome (CD-HIT) → GEM reconstruction (CarveMe) → panGPRs → neighborhood analysis; with protein stoichiometry, 3D modeling, and structural analysis integration.">
 </p>
 
 *Figure.* Pangenome analysis, H) Comulative pangenome - defining stabel core, accessory and rare (CAR) genes across the family
+
 
 
 
