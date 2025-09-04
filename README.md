@@ -8,7 +8,7 @@ large scale reconstruction of pan gene-to-protein-to-structure-to-reaction for p
   <img src="/documents/Lacto-panGPSRs.jpg" width="900" alt="Automated pipeline: genomes → QA/QC → annotation (BAKTA) → pangenome (CD-HIT) → GEM reconstruction (CarveMe) → panGPRs → neighborhood analysis; with protein stoichiometry, 3D modeling, and structural analysis integration.">
 </p>
 
-*Figure.* High-level workflow for automated pangenome and metabolic modeling.
+*Figure 1.* High-level workflow for automated pangenome and metabolic modeling.
 
 
 ## Methods Overview
@@ -27,7 +27,7 @@ large scale reconstruction of pan gene-to-protein-to-structure-to-reaction for p
   <img src="/documents/Lacto-panGPSRs (1).png" width="900" alt="Automated pipeline: genomes → QA/QC → annotation (BAKTA) → pangenome (CD-HIT) → GEM reconstruction (CarveMe) → panGPRs → neighborhood analysis; with protein stoichiometry, 3D modeling, and structural analysis integration.">
 </p>
 
-*Figure.* A) Genomes distribution across genera, B) species and C) geographical locations.   
+*Figure 2.* A) Genomes distribution across genera, B) species and C) geographical locations.   
 
 4. **Annotation (BAKTA)**  
    Generate consistent, evidence-backed functional annotations at the protein level to support pangenome and metabolic reconstruction.
@@ -39,7 +39,7 @@ large scale reconstruction of pan gene-to-protein-to-structure-to-reaction for p
   <img src="/documents/Lacto-panGPSRs (2).png" width="900" alt="Automated pipeline: genomes → QA/QC → annotation (BAKTA) → pangenome (CD-HIT) → GEM reconstruction (CarveMe) → panGPRs → neighborhood analysis; with protein stoichiometry, 3D modeling, and structural analysis integration.">
 </p>
 
-*Figure.* Pangenome analysis, D) family-level . E) species level
+*Figure 3.* Pangenome analysis, D) family-level . E) species level
 
 
 
@@ -57,7 +57,7 @@ large scale reconstruction of pan gene-to-protein-to-structure-to-reaction for p
   <img src="/documents/Lacto-panGPSRs (4).png" width="900" alt="Automated pipeline: genomes → QA/QC → annotation (BAKTA) → pangenome (CD-HIT) → GEM reconstruction (CarveMe) → panGPRs → neighborhood analysis; with protein stoichiometry, 3D modeling, and structural analysis integration.">
 </p>
 
-*Figure.* Pangenome analysis, H) Comulative pangenome - defining stabel core, accessory and rare (CAR) genes across the family
+*Figure 4.* Pangenome analysis, H) Comulative pangenome - defining stabel core, accessory and rare (CAR) genes across the family
 
 
 
@@ -65,21 +65,70 @@ large scale reconstruction of pan gene-to-protein-to-structure-to-reaction for p
 7. **GEM Reconstruction (CarveMe)**  
    Construct draft, strain-resolved GEMs from annotated proteomes; harmonize model identifiers and media definitions for comparative analysis.
 
-8. **panGPRs**  
+9. **panGPRs**  
    Derive gene–protein–reaction (GPR) rules across strains; quantify the diversity of genetic implementations for each metabolic reaction at pangenome scale.
 
-9. **Neighborhood Analysis & Pangenome Graph**  
-   Map gene neighborhoods and co-occurrence patterns; integrate with the pangenome graph to study genomic context and mobility.
 
-10. **Protein Stoichiometry (SWISS-MODEL)**  
+
+<p align="center">
+  <img src="/documents/Lacto-panGPSRs (5).png" width="900" alt="Automated pipeline: genomes → QA/QC → annotation (BAKTA) → pangenome (CD-HIT) → GEM reconstruction (CarveMe) → panGPRs → neighborhood analysis; with protein stoichiometry, 3D modeling, and structural analysis integration.">
+</p>
+
+*Figure 5.* PanGEM and PanGPR reconstruction, I) Reactome presence absence matrix - J) PanGPRs' genetic diversity
+
+
+
+
+<p align="center">
+  <img src="/documents/Lacto-panGPSRs (6).png" width="900" alt="Automated pipeline: genomes → QA/QC → annotation (BAKTA) → pangenome (CD-HIT) → GEM reconstruction (CarveMe) → panGPRs → neighborhood analysis; with protein stoichiometry, 3D modeling, and structural analysis integration.">
+</p>
+
+*Figure 6.* PanGEM and PanGPR reconstruction, K) Genera-exclusive metabolic reactions
+
+
+
+12. **Protein Stoichiometry (SWISS-MODEL)**  
    Obtain or estimate subunit stoichiometries and complex composition to refine GPRs and reaction assignments.
 
-11. **3D Modeling**  
+13. **3D Modeling**  
    Generate or retrieve structural models for selected proteins/complexes to enable structure-informed curation and downstream predictions.
 
-12. **Structural Analysis**  
+<p align="center">
+  <img src="/documents/Lacto-panGPSRs (7).png" width="900" alt="Automated pipeline: genomes → QA/QC → annotation (BAKTA) → pangenome (CD-HIT) → GEM reconstruction (CarveMe) → panGPRs → neighborhood analysis; with protein stoichiometry, 3D modeling, and structural analysis integration.">
+</p>
+
+*Figure 7.* PanGPSR reconstruction, L) Prptein sequence clusters of LR2T pangpr across the family M)  Prptein structure clusters of LR2T pangpr across the family
+
+
+
+15. **Structural Analysis**  
     Analyze model quality and interfaces; link structural features to function, kinetics, or variant effects when relevant.
 
+<p align="center">
+  <img src="/documents/Lacto-panGPSRs (9).png" width="900" alt="Automated pipeline: genomes → QA/QC → annotation (BAKTA) → pangenome (CD-HIT) → GEM reconstruction (CarveMe) → panGPRs → neighborhood analysis; with protein stoichiometry, 3D modeling, and structural analysis integration.">
+</p>
+
+*Figure 8.* PanGPSR analysis, N) Structutal variation against sequence divergence by RMSD O)  Structutal variation against sequence divergence by Tm Align
+
+
+
+
+<p align="center">
+  <img src="/documents/Lacto-panGPSRs (10).png" width="900" alt="Automated pipeline: genomes → QA/QC → annotation (BAKTA) → pangenome (CD-HIT) → GEM reconstruction (CarveMe) → panGPRs → neighborhood analysis; with protein stoichiometry, 3D modeling, and structural analysis integration.">
+</p>
+
+*Figure 9.* PanGPSR analysis, P) Structural evolution across Family
+
+
+
+17. **Neighborhood Analysis & Pangenome Graph**  
+   Map gene neighborhoods and co-occurrence patterns; integrate with the pangenome graph to study genomic context and mobility.
+
+<p align="center">
+  <img src="/documents/Lacto-panGPSRs (8).png" width="900" alt="Automated pipeline: genomes → QA/QC → annotation (BAKTA) → pangenome (CD-HIT) → GEM reconstruction (CarveMe) → panGPRs → neighborhood analysis; with protein stoichiometry, 3D modeling, and structural analysis integration.">
+</p>
+
+*Figure 5.* Pan-neighborhood, Q) Genome neighborhood analysis at pangenome scale 
 ---
 
   
