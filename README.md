@@ -35,20 +35,20 @@ large scale reconstruction of pan gene-to-protein-to-structure-to-reaction for p
 5. **Pangenome (CD-HIT)**  
    Cluster proteins to form non-redundant ortholog groups; build a pangenome graph that captures core, accessory, and rare gene families.
 
-   <p align="center">
-  <img src="/documents/Lacto-panGPSRs (2).png" width="900" alt="Automated pipeline: genomes → QA/QC → annotation (BAKTA) → pangenome (CD-HIT) → GEM reconstruction (CarveMe) → panGPRs → neighborhood analysis; with protein stoichiometry, 3D modeling, and structural analysis integration.">
-</p>
+   ## Pangenome Analysis (Figures)
 
-*Figure 3.* Pangenome analysis, D) family-level . E) species level
-
-
-
-   <p align="center">
-  <img src="/documents/Lacto-panGPSRs (3).png" width="900" alt="Automated pipeline: genomes → QA/QC → annotation (BAKTA) → pangenome (CD-HIT) → GEM reconstruction (CarveMe) → panGPRs → neighborhood analysis; with protein stoichiometry, 3D modeling, and structural analysis integration.">
-</p>
-
-*Figure.* Pangenome analysis, F) Cross-genera . G) Genus level
-
+<table>
+  <tr>
+    <td width="50%">
+      <img src="/documents/Lacto-panGPSRs (2).png" width="100%" alt="Family-level and species-level analysis">
+      <p align="center"><em>Figure 3. Pangenome analysis — D) family-level; E) species-level</em></p>
+    </td>
+    <td width="50%">
+      <img src="/documents/Lacto-panGPSRs (3).png" width="100%" alt="Cross-genera and genus-level analysis">
+      <p align="center"><em>Figure 4. Pangenome analysis — F) cross-genera; G) genus-level</em></p>
+    </td>
+  </tr>
+</table>
 
 
 
