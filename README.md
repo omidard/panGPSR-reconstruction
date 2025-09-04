@@ -53,7 +53,7 @@ large scale reconstruction of pan gene-to-protein-to-structure-to-reaction for p
 </table>
 
 <p align="center">
-  <img src="/documents/Lacto-panGPSRs (4).png" width="70%" alt="Combined pangenome analysis panel">
+  <img src="/documents/Lacto-panGPSRs (4).png" width="50%" alt="Combined pangenome analysis panel">
   <br>
   <em>Figure 5. Extended pangenome analysis.</em>
 </p>
