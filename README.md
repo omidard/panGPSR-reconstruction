@@ -137,9 +137,33 @@ large scale reconstruction of pan gene-to-protein-to-structure-to-reaction for p
 
 
 
-### Key Result
-![Accuracy vs. Dataset Size](docs/assets/accuracy_vs_size.png)
+### Implementation
 
-> Caption: Accuracy improves with dataset size across three models (error bars: 95% CI).
 
-[View full-res](docs/assets/accuracy_vs_size_full.png)
+## Run the full pipeline
+
+This repository provides a sequential pipeline for ESKAPE taxa. The runner below executes your scripts **in order** and handles env activation for Bakta. It assumes the directory layout:
+
+
+### Prerequisites
+- **conda** (for `bakta_env`)
+- Python deps used by your scripts (CarveMe, etc.)
+- A SWISS-MODEL **access token** available as an environment variable:
+  ```bash
+  export SWISSMODEL_TOKEN="YOUR_TOKEN_HERE"   # do NOT commit tokens
+
+
+#Quick start (single taxon)
+bash scripts/panGPSR_pipeline \
+  --root /path/to/dir/ESKAPE \
+  --taxon Enterococcus_faecium
+
+#Run all ESKAPE taxa
+bash scripts/panGPSR_pipeline --root /path/to/dir/ESKAPE --all
+
+
+
+
+
+
+
