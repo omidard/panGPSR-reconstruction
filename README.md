@@ -128,8 +128,9 @@ large scale reconstruction of pan gene-to-protein-to-structure-to-reaction for p
   <img src="/documents/Lacto-panGPSRs (8).png" width="900" alt="Automated pipeline: genomes → QA/QC → annotation (BAKTA) → pangenome (CD-HIT) → GEM reconstruction (CarveMe) → panGPRs → neighborhood analysis; with protein stoichiometry, 3D modeling, and structural analysis integration.">
 </p>
 
-*Figure 5.* Pan-neighborhood, Q) Genome neighborhood analysis at pangenome scale 
----
+ *Figure 5.* Pan-neighborhood, Q) Genome neighborhood analysis at pangenome scale 
+ 
+-------------------------------------------
 
   
 
@@ -137,7 +138,7 @@ large scale reconstruction of pan gene-to-protein-to-structure-to-reaction for p
 
 
 
-### Implementation
+# Implementation
 
 
 ## Run the full pipeline
@@ -153,12 +154,12 @@ This repository provides a sequential pipeline for ESKAPE taxa. The runner below
   export SWISSMODEL_TOKEN="YOUR_TOKEN_HERE"   # do NOT commit tokens
 
 
-#Quick start (single taxon)
+####Quick start (single taxon)
 bash scripts/panGPSR_pipeline \
   --root /path/to/dir/ESKAPE \
   --taxon Enterococcus_faecium
 
-#Run all ESKAPE taxa
+####Run all ESKAPE taxa
 bash scripts/panGPSR_pipeline --root /path/to/dir/ESKAPE --all
 
 
