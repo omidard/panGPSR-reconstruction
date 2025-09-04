@@ -24,7 +24,7 @@ large scale reconstruction of pan gene-to-protein-to-structure-to-reaction for p
    Assess contamination and taxonomic assignment; cluster genomes (Mash) and evaluate completeness and contiguity; exclude or flag low-quality genomes.
 
 <p align="center">
-  <img src="/documents/Lacto-panGPSRs (1).jpg" width="900" alt="Automated pipeline: genomes → QA/QC → annotation (BAKTA) → pangenome (CD-HIT) → GEM reconstruction (CarveMe) → panGPRs → neighborhood analysis; with protein stoichiometry, 3D modeling, and structural analysis integration.">
+  <img src="/documents/Lacto-panGPSRs(1).jpg" width="900" alt="Automated pipeline: genomes → QA/QC → annotation (BAKTA) → pangenome (CD-HIT) → GEM reconstruction (CarveMe) → panGPRs → neighborhood analysis; with protein stoichiometry, 3D modeling, and structural analysis integration.">
 </p>
 
 *Figure.* Genomes distribution across genera, species and geographical locations.   
