@@ -59,9 +59,6 @@ large scale reconstruction of pan gene-to-protein-to-structure-to-reaction for p
 </p>
 
 
-*Figure 4.* Pangenome analysis, H) Comulative pangenome - defining stabel core, accessory and rare (CAR) genes across the family
-
-
 
 
 7. **GEM Reconstruction (CarveMe)**  
@@ -72,20 +69,21 @@ large scale reconstruction of pan gene-to-protein-to-structure-to-reaction for p
 
 
 
-<p align="center">
-  <img src="/documents/Lacto-panGPSRs (5).png" width="900" alt="Automated pipeline: genomes → QA/QC → annotation (BAKTA) → pangenome (CD-HIT) → GEM reconstruction (CarveMe) → panGPRs → neighborhood analysis; with protein stoichiometry, 3D modeling, and structural analysis integration.">
-</p>
+## PanGEM and PanGPR Reconstruction
 
-*Figure 5.* PanGEM and PanGPR reconstruction, I) Reactome presence absence matrix - J) PanGPRs' genetic diversity
+<table>
+  <tr>
+    <td width="50%">
+      <img src="/documents/Lacto-panGPSRs (5).png" width="100%" alt="Reactome presence/absence and PanGPRs' diversity">
+      <p align="center"><em>Figure 5. PanGEM and PanGPR reconstruction — I) Reactome presence-absence matrix; J) PanGPRs’ genetic diversity</em></p>
+    </td>
+    <td width="50%">
+      <img src="/documents/Lacto-panGPSRs (6).png" width="100%" alt="Genera-exclusive metabolic reactions">
+      <p align="center"><em>Figure 6. PanGEM and PanGPR reconstruction — K) Genera-exclusive metabolic reactions</em></p>
+    </td>
+  </tr>
+</table>
 
-
-
-
-<p align="center">
-  <img src="/documents/Lacto-panGPSRs (6).png" width="900" alt="Automated pipeline: genomes → QA/QC → annotation (BAKTA) → pangenome (CD-HIT) → GEM reconstruction (CarveMe) → panGPRs → neighborhood analysis; with protein stoichiometry, 3D modeling, and structural analysis integration.">
-</p>
-
-*Figure 6.* PanGEM and PanGPR reconstruction, K) Genera-exclusive metabolic reactions
 
 
 
@@ -106,20 +104,21 @@ large scale reconstruction of pan gene-to-protein-to-structure-to-reaction for p
 15. **Structural Analysis**  
     Analyze model quality and interfaces; link structural features to function, kinetics, or variant effects when relevant.
 
-<p align="center">
-  <img src="/documents/Lacto-panGPSRs (9).png" width="900" alt="Automated pipeline: genomes → QA/QC → annotation (BAKTA) → pangenome (CD-HIT) → GEM reconstruction (CarveMe) → panGPRs → neighborhood analysis; with protein stoichiometry, 3D modeling, and structural analysis integration.">
-</p>
+## PanGPSR Analysis
 
-*Figure 8.* PanGPSR analysis, N) Structutal variation against sequence divergence by RMSD O)  Structutal variation against sequence divergence by Tm Align
+<table>
+  <tr>
+    <td width="50%">
+      <img src="/documents/Lacto-panGPSRs (9).png" width="100%" alt="Structural variation vs sequence divergence">
+      <p align="center"><em>Figure 8. PanGPSR analysis — N) Structural variation vs. sequence divergence (RMSD); O) Structural variation vs. sequence divergence (TM-align)</em></p>
+    </td>
+    <td width="50%">
+      <img src="/documents/Lacto-panGPSRs (10).png" width="100%" alt="Structural evolution across family">
+      <p align="center"><em>Figure 9. PanGPSR analysis — P) Structural evolution across family</em></p>
+    </td>
+  </tr>
+</table>
 
-
-
-
-<p align="center">
-  <img src="/documents/Lacto-panGPSRs (10).png" width="900" alt="Automated pipeline: genomes → QA/QC → annotation (BAKTA) → pangenome (CD-HIT) → GEM reconstruction (CarveMe) → panGPRs → neighborhood analysis; with protein stoichiometry, 3D modeling, and structural analysis integration.">
-</p>
-
-*Figure 9.* PanGPSR analysis, P) Structural evolution across Family
 
 
 
