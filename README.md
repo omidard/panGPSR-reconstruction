@@ -27,7 +27,7 @@ large scale reconstruction of pan gene-to-protein-to-structure-to-reaction for p
   <img src="/documents/Lacto-panGPSRs (1).png" width="900" alt="Automated pipeline: genomes → QA/QC → annotation (BAKTA) → pangenome (CD-HIT) → GEM reconstruction (CarveMe) → panGPRs → neighborhood analysis; with protein stoichiometry, 3D modeling, and structural analysis integration.">
 </p>
 
-*Figure.* Genomes distribution across genera, species and geographical locations.   
+*Figure.* A) Genomes distribution across genera, B) species and C) geographical locations.   
 
 4. **Annotation (BAKTA)**  
    Generate consistent, evidence-backed functional annotations at the protein level to support pangenome and metabolic reconstruction.
@@ -35,22 +35,28 @@ large scale reconstruction of pan gene-to-protein-to-structure-to-reaction for p
 5. **Pangenome (CD-HIT)**  
    Cluster proteins to form non-redundant ortholog groups; build a pangenome graph that captures core, accessory, and rare gene families.
 
-6. **GEM Reconstruction (CarveMe)**  
+   <p align="center">
+  <img src="/documents/Lacto-panGPSRs (2).png" width="900" alt="Automated pipeline: genomes → QA/QC → annotation (BAKTA) → pangenome (CD-HIT) → GEM reconstruction (CarveMe) → panGPRs → neighborhood analysis; with protein stoichiometry, 3D modeling, and structural analysis integration.">
+</p>
+
+*Figure.* Pangenome analysis, D) family-level . C) species level
+
+7. **GEM Reconstruction (CarveMe)**  
    Construct draft, strain-resolved GEMs from annotated proteomes; harmonize model identifiers and media definitions for comparative analysis.
 
-7. **panGPRs**  
+8. **panGPRs**  
    Derive gene–protein–reaction (GPR) rules across strains; quantify the diversity of genetic implementations for each metabolic reaction at pangenome scale.
 
-8. **Neighborhood Analysis & Pangenome Graph**  
+9. **Neighborhood Analysis & Pangenome Graph**  
    Map gene neighborhoods and co-occurrence patterns; integrate with the pangenome graph to study genomic context and mobility.
 
-9. **Protein Stoichiometry (SWISS-MODEL)**  
+10. **Protein Stoichiometry (SWISS-MODEL)**  
    Obtain or estimate subunit stoichiometries and complex composition to refine GPRs and reaction assignments.
 
-10. **3D Modeling**  
+11. **3D Modeling**  
    Generate or retrieve structural models for selected proteins/complexes to enable structure-informed curation and downstream predictions.
 
-11. **Structural Analysis**  
+12. **Structural Analysis**  
     Analyze model quality and interfaces; link structural features to function, kinetics, or variant effects when relevant.
 
 ---
