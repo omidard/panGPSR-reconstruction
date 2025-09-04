@@ -11,6 +11,30 @@ large scale reconstruction of pan gene-to-protein-to-structure-to-reaction for p
 *Figure.* High-level workflow for automated pangenome and metabolic modeling.
 
 
+flowchart LR
+  A[Obtain Genomes]
+  B[QA/QC<br/>• contamination • taxonomy • Mash clustering<br/>• completeness • contiguity]
+  C[Annotation<br/>(BAKTA)]
+  D[Pangenome<br/>(CD-HIT)]
+  E[panGPRs]
+  F[GEM reconstruction<br/>(CarveMe)]
+  G[Neighborhood analysis<br/>& pangenome graph]
+  H[Protein stoichiometry<br/>(SWISS-MODEL)]
+  I[3D Modeling]
+  J[Structural analysis]
+
+  A --> B --> C --> D
+  C --> F
+  D --> G
+  E --> F
+  H --> E
+  I --> E
+  I --> J
+
+
+
+
+
 ### Key Result
 ![Accuracy vs. Dataset Size](docs/assets/accuracy_vs_size.png)
 
