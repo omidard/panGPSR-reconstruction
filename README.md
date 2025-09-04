@@ -11,25 +11,45 @@ large scale reconstruction of pan gene-to-protein-to-structure-to-reaction for p
 *Figure.* High-level workflow for automated pangenome and metabolic modeling.
 
 
-flowchart LR
-  A[Obtain Genomes]
-  B[QA/QC<br/>• contamination • taxonomy • Mash clustering<br/>• completeness • contiguity]
-  C[Annotation<br/>(BAKTA)]
-  D[Pangenome<br/>(CD-HIT)]
-  E[panGPRs]
-  F[GEM reconstruction<br/>(CarveMe)]
-  G[Neighborhood analysis<br/>& pangenome graph]
-  H[Protein stoichiometry<br/>(SWISS-MODEL)]
-  I[3D Modeling]
-  J[Structural analysis]
+## Methods Overview
 
-  A --> B --> C --> D
-  C --> F
-  D --> G
-  E --> F
-  H --> E
-  I --> E
-  I --> J
+**Summary.** Automated, end-to-end workflow for large-scale microbial genomics and metabolic modeling. The pipeline ingests genomes, performs rigorous QA/QC, annotates proteins, builds a non-redundant pangenome, reconstructs strain-resolved GEMs, derives panGPRs, analyzes genomic neighborhoods, and integrates structure-aware refinement.
+
+### Pipeline Stages
+
+1. **Obtain Genomes**  
+   Retrieve assemblies and metadata; standardize file formats and identifiers for downstream steps.
+
+2. **QA/QC**  
+   Assess contamination and taxonomic assignment; cluster genomes (Mash) and evaluate completeness and contiguity; exclude or flag low-quality genomes.
+
+3. **Annotation (BAKTA)**  
+   Generate consistent, evidence-backed functional annotations at the protein level to support pangenome and metabolic reconstruction.
+
+4. **Pangenome (CD-HIT)**  
+   Cluster proteins to form non-redundant ortholog groups; build a pangenome graph that captures core, accessory, and rare gene families.
+
+5. **GEM Reconstruction (CarveMe)**  
+   Construct draft, strain-resolved GEMs from annotated proteomes; harmonize model identifiers and media definitions for comparative analysis.
+
+6. **panGPRs**  
+   Derive gene–protein–reaction (GPR) rules across strains; quantify the diversity of genetic implementations for each metabolic reaction at pangenome scale.
+
+7. **Neighborhood Analysis & Pangenome Graph**  
+   Map gene neighborhoods and co-occurrence patterns; integrate with the pangenome graph to study genomic context and mobility.
+
+8. **Protein Stoichiometry (SWISS-MODEL)**  
+   Obtain or estimate subunit stoichiometries and complex composition to refine GPRs and reaction assignments.
+
+9. **3D Modeling**  
+   Generate or retrieve structural models for selected proteins/complexes to enable structure-informed curation and downstream predictions.
+
+10. **Structural Analysis**  
+    Analyze model quality and interfaces; link structural features to function, kinetics, or variant effects when relevant.
+
+---
+
+  
 
 
 
