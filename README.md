@@ -5,7 +5,7 @@ large scale reconstruction of pan gene-to-protein-to-structure-to-reaction for p
 ## Method Overview (Figure)
 
 <p align="center">
-  <img src="/tree/main/documents/Lacto-panGPSRs.jpg" width="900" alt="Automated pipeline: genomes → QA/QC → annotation (BAKTA) → pangenome (CD-HIT) → GEM reconstruction (CarveMe) → panGPRs → neighborhood analysis; with protein stoichiometry, 3D modeling, and structural analysis integration.">
+  <img src="/documents/Lacto-panGPSRs.jpg" width="900" alt="Automated pipeline: genomes → QA/QC → annotation (BAKTA) → pangenome (CD-HIT) → GEM reconstruction (CarveMe) → panGPRs → neighborhood analysis; with protein stoichiometry, 3D modeling, and structural analysis integration.">
 </p>
 
 *Figure.* High-level workflow for automated pangenome and metabolic modeling.
