@@ -106,7 +106,7 @@ Large-scale reconstruction of pan gene → protein → structure → reaction (p
    Generate or retrieve structural models for selected proteins/complexes to enable structure-informed curation and downstream predictions.
 
 <p align="center">
-  <img src="/documents/Lacto-panGPSRs (7).png" width="900" alt="Protein sequence vs structure clusters across the family.">
+  <img src="/documents/Lacto-panGPSRs (7).png" width="450" alt="Protein sequence vs structure clusters across the family.">
 </p>
 <p align="center"><em>Figure 8. PanGPSR reconstruction — L) protein sequence clusters of LR2T panGPR across the family; M) protein structure clusters of LR2T panGPR across the family.</em></p>
 
@@ -131,7 +131,7 @@ Large-scale reconstruction of pan gene → protein → structure → reaction (p
    Map gene neighborhoods and co-occurrence patterns; integrate with the pangenome graph to study genomic context and mobility.
 
 <p align="center">
-  <img src="/documents/Lacto-panGPSRs (8).png" width="900" alt="Genome neighborhood analysis at pangenome scale.">
+  <img src="/documents/Lacto-panGPSRs (8).png" width="459" alt="Genome neighborhood analysis at pangenome scale.">
 </p>
 <p align="center"><em>Figure 11. Pan-neighborhood — Q) genome neighborhood analysis at pangenome scale.</em></p>
 
